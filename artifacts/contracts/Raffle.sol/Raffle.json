@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Raffle",
+  "sourceName": "contracts/Raffle.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a45bfe509f36cf5d210f7095843afa546ec75b2b9a11c1ca940326e41d621f2064736f6c63430008120033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220a45bfe509f36cf5d210f7095843afa546ec75b2b9a11c1ca940326e41d621f2064736f6c63430008120033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
