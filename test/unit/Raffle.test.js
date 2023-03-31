@@ -125,7 +125,7 @@ const { assert, expect } = require("chai")
                   }
                   const startingTimeStamp = await raffle.getLatestTimeStamp()
                   await new Promise(async (resolve, reject) => {
-                      raffle.once("WinnerPicker", async () => {
+                      raffle.once("WinnerPicked", async () => {
                           console.log("Found the event")
                           try {
                               const recentWinner = await raffle.getRecentWinner()
