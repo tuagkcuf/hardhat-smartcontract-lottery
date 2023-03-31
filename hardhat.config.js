@@ -22,15 +22,15 @@ module.exports = {
             chaindId: 11155111,
             blockConfirmations: "6",
             url: SEPOLIA_RPC_URL,
-            accounts: [PRIVATE_KEY]
-        }
+            accounts: [PRIVATE_KEY],
+        },
     },
     gasReporter: {
         enabled: false,
         currency: "USD",
         outputFile: "gas-report.txt",
         noColors: true,
-        coinmarketcap: process.env.COINMARKETCAP_API_KEY
+        coinmarketcap: process.env.COINMARKETCAP_API_KEY,
     },
     solidity: "0.8.18",
     namedAccounts: {
@@ -43,6 +43,6 @@ module.exports = {
         },
     },
     mocha: {
-        timeout: 500000
-      }
+        timeout: 500000,
+    },
 }
