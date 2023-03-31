@@ -16,12 +16,14 @@ module.exports = {
     networks: {
         hardhat: {
             chaindId: 31337,
-            blockConfirmations: 1,
+            blockConfirmations: "1",
         },
-        sepolia: 11155111,
-        blockConfirmations: 6,
-        url: SEPOLIA_RPC_URL,
-        accounts: [PRIVATE_KEY]
+        sepolia: {
+            chaindId: 11155111,
+            blockConfirmations: "6",
+            url: SEPOLIA_RPC_URL,
+            accounts: [PRIVATE_KEY]
+        }
     },
     solidity: "0.8.18",
     namedAccounts: {
