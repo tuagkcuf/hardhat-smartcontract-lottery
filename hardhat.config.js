@@ -23,6 +23,7 @@ module.exports = {
             blockConfirmations: "6",
             url: SEPOLIA_RPC_URL,
             accounts: [PRIVATE_KEY],
+            saveDeployments: true,
         },
     },
     gasReporter: {
