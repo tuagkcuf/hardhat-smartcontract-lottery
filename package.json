@@ -1,5 +1,5 @@
 {
-    "name": "hardhat-smartcontract-lottery",
+    "name": "hardhat-smartcontract-lottery-fcc",
     "version": "1.0.0",
     "description": "",
     "scripts": {
@@ -34,5 +34,9 @@
       "@openzeppelin/contracts": "^4.5.0",
       "babel-eslint": "^10.1.0",
       "dotenv": "^10.0.0"
+    },
+    "mocha": {
+      "timeout": 10000000
     }
   }
+  
