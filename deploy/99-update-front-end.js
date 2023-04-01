@@ -22,7 +22,7 @@ async function updateContractAddresses() {
     const chainId = network.config.chainId.toString()
     const currentAdresses = JSON.parse(fs.readFileSync(FRONT_END_ADDRESSES_FILE, "utf8"))
     if (chainId in currentAdresses) {
-        if (!currentAdresses[chainId].inlcudes(raffle.address)) {
+        if (!currentAdresses[chainId].includes(raffle.address)) {
             currentAdresses[chainId].push(raffle.address)
         }
     } else {
