@@ -1,9 +1,8 @@
 const { ethers, network } = require("hardhat")
 const fs = require("fs")
-const { contract } = require("@chainlink/test-helpers")
 
-const FRONT_END_ADDRESSES_FILE = "../../nextjs-smartcontract-lottery/constants/contractAddress.json"
-const FRONT_END_ABI_FILE = "../../nextjs-smartcontract-lottery/constants/abi.json"
+const FRONT_END_ADDRESSES_FILE = "../nextjs-smartcontract-lottery/constants/contractAddress.json"
+const FRONT_END_ABI_FILE = "../nextjs-smartcontract-lottery/constants/abi.json"
 
 module.exports = async function () {
     if (process.env.UPDATE_FRONT_END) {
